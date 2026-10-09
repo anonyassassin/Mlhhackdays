@@ -48,6 +48,6 @@ docker compose run --rm tax-engine npm test
 ## Design Rules
 
 1. **Single source of truth.** Every Twin is versioned ($v_1 \rightarrow v_2 \rightarrow v_3$). Snapshots are immutable — scenarios fork, they never mutate.
-2. **Numbers from code, words from AI.** Gemini reads documents and explains results. It never calculates. Every rupee figure it speaks comes from a tool call into the engine.
+2. **Numbers from code, words from AI.** Gemma reads documents and explains results. It never calculates. Every rupee figure it speaks comes from a tool call into the engine.
 3. **No math in the browser.** The frontend renders what the backend returns. Nothing more.
 4. **Secrets stay server-side.** API keys and database credentials never reach the client.
