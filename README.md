@@ -1,4 +1,4 @@
-# Personal CA Copilot (FY 2025-26 / AY 2026-27)
+# AI Tax Copilot (FY 2025-26 / AY 2026-27)
 
 An AI-powered personal chartered accountant for Indian taxpayers — combining a deterministic tax engine, immutable scenario snapshots, document intelligence, and a clean Next.js interface.
 
